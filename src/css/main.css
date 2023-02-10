@@ -40,11 +40,11 @@ header {
 .nav-bar .search {
     display: flex; 
     gap:40px;
-    margin-left: 226px;
+    margin-left: 96px;
     margin-bottom: 35px;
 }
 .search .icons{
-    gap:13px;
+    gap:10px;
 }
  .search .right-inner-addon i {
     position: absolute;
@@ -54,6 +54,7 @@ header {
 }
 
 input {
+    padding: 5px;
     color: white;
     background: black;
     border-top: 0 transparent black;
@@ -110,6 +111,56 @@ padding-top: 0;
  margin-top: 40px;
 padding-left: 230px;
 margin-left: 650px;
+}
+
+.post{
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+}
+.date {
+    color: #707070;
+}
+.card-body{
+    padding-left: 50px;
+    
+}
+.card-text{
+    padding-bottom:30px ;
+}
+.card-title h1{
+    padding: 0;
+    margin: 0;
+}
+.heading {
+    padding: 30px;
+    text-align: center;
+}
+.btn-light{
+    font-size: 16px;
+    padding: 15px;
+    background-color: #fefefe;
+    box-shadow: 1px;
+}
+.btn-light:hover{
+    color: #fefefe;
+    background-color: black;
+    cursor: pointer;
+}
+.page{
+    width: 800px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors .row-1 {
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr );
+    
 }
 footer{
         height:600px;
