@@ -58,6 +58,62 @@ input {
     background: black;
     border-top: 0 transparent black;
 }
+.container{
+
+    width: 100%;
+    height: 100vh;
+    margin-top:-15px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+width: 100%;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev{
+    color: rgb(252, 248, 248);
+
+}
+.slider{
+    text-align: center;
+   background: black;
+    color: #fefefe;
+    padding:-50px;
+    border-radius: 4px;
+}
+.quotes {
+display: flex;
+padding-top: 0;
+
+}
+.quotes .text{
+    text-align: center;
+    background-color: black;
+    color: #fefefe;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 80px;
+    margin: 10px;
+}
+.p-text{
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.arrow{
+ margin-top: 40px;
+padding-left: 230px;
+margin-left: 650px;
+}
+footer{
+    background-color: black;
+}
 
 @media only screen and (max-width:1200px)  {
     header{
@@ -122,5 +178,15 @@ input {
     .nav-bar li {
         margin-bottom: 12px;
 
+    }
+    .container{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 0;
+        padding: 0 0;
+        margin: 0 0;
+    
+      
     }
 }
