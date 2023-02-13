@@ -44,6 +44,7 @@ header {
     margin-bottom: 35px;
 }
 .search .icons{
+    font-size: 10px;
     gap:10px;
 }
  .search .right-inner-addon i {
@@ -60,73 +61,81 @@ input {
     border-top: 0 transparent black;
 }
 .container{
-
-    width: 100%;
+    width: 80%;
     height: 100vh;
-    margin-top:-15px;
-    display: flex;
-    align-items: center;
+    margin: 0px auto;
+    margin-top: -80px;
+    position: relative;
   
 }
+.mySlides {
+    display: none;
+  }
 
-.swiper{
-    width: 80%;
-    height: fit-content;
-}
-.swiper-slide img{
-width: 100%;
-}
+  .cursor {
+    cursor: pointer;
+  }
 
-.swiper .swiper-button-next, .swiper .swiper-button-prev{
-    color: rgb(252, 248, 248);
-
+  .coffe-text {
+    font-size: 25px;
+      position: absolute;
+      padding: 60px;
+      color: rgb(247, 238, 238);
+      background: black;
+      margin-top: -9%;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: relative;
+    top: 80%;
+    width: auto;
+    padding: 16px;
+    margin-top: -6px;
+    margin-left: 80%;
+    color: rgb(13, 12, 12);
+    font-weight: lighter;
+    font-size: 40px;
+  }
+  
+  /* Position the "next button" to the right */
+  .prev{
+      margin-right: 20px;
+  }
+  .next {
+   margin-left: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+  .navgation{
+      display: flex;
+      margin-top: 3%;
+      margin-right:-1%;
+  }
+.info{
+    padding: 20px;
+    margin: 30px;
 }
-.slider{
-    text-align: center;
-   background: black;
-    color: #fefefe;
-    padding:-50px;
-    border-radius: 4px;
-}
-.quotes {
-display: flex;
-padding-top: 0;
-
-}
-.quotes .text{
-    text-align: center;
-    background-color: black;
-    color: #fefefe;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 80px;
-    margin: 10px;
-}
-.p-text{
-    padding-right: 50px;
-    margin-right: 50px;
-}
-
-.arrow{
- margin-top: 40px;
-padding-left: 230px;
-margin-left: 650px;
-}
-
 .post{
-    padding: 50px;
-    margin: 50px;
+    padding: 20px;
     display: flex;
+    margin: 20px;
 }
 .date {
     color: #707070;
 }
 .card-body{
     padding-left: 50px;
-    
+  
+}
+.center{
+    padding-top: 15px;
 }
 .card-text{
+    list-style: 30px;
     padding-bottom:30px ;
+    margin-bottom: 30px;
 }
 .card-title h1{
     padding: 0;
@@ -147,6 +156,50 @@ margin-left: 650px;
     background-color: black;
     cursor: pointer;
 }
+.horizontal{
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.info{
+    width: 100%;
+   display: flex;
+   padding-left: 50px;
+   margin-left: 70px;
+}
+.registation{
+    padding: 30px;
+   
+}
+.horizontal-line{
+    padding-left: 0;
+    margin-left: 0;
+}
+.card-post{
+    padding: 20px;
+    margin: 20px;
+}
+.webshop{
+    padding-top: 10px;
+}
+
+.cart {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.visit{
+    padding: 20px;
+    margin: 20px;
+}
+.world-cup{
+    padding-left: 0;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.signup{
+    line-height: 30px;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
 .page{
     width: 800px;
     padding: 30px;
@@ -162,6 +215,7 @@ margin-left: 650px;
     grid-template-columns: repeat(1, 1fr );
     
 }
+
 footer{
         height:600px;
         width: 80%;
