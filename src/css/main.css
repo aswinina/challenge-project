@@ -42,10 +42,16 @@ header {
     gap:40px;
     margin-left: 96px;
     margin-bottom: 35px;
+    border: 0 ;
 }
 .search .icons{
-    font-size: 10px;
-    gap:10px;
+    padding: 22px;
+    padding-left: 100px;
+    margin-left: 100px;
+    gap:30px;
+}
+.search-hr{
+
 }
  .search .right-inner-addon i {
     position: absolute;
@@ -151,6 +157,13 @@ input {
     background-color: #fefefe;
     box-shadow: 1px;
 }
+.btn-light a{
+    color: #050505;
+}
+.btn-light a:hover{
+    cursor: pointer;
+   color: #fefefe;
+}
 .btn-light:hover{
     color: #fefefe;
     background-color: black;
@@ -208,12 +221,15 @@ input {
     justify-content: space-between;
 }
 .sponsors .row-1 {
-    padding: 30px;
-    margin: 30px;
+    padding: 50px;
+    margin: 100px 150px;  
+    margin-top: 0px;
+}
+.column-row{
+
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(1, 1fr );
-    
+    gap: 10px;
+    grid-template-columns: repeat(10, 1fr );
 }
 
 footer{
